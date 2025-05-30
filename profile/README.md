@@ -18,8 +18,8 @@
 
 A few of the things we're working on or sharing:
 
-- [causelybot](https://github.com/Causely/causelybot): Example Webhook Service to process the Causely notification payloads
-- [chaosmania](https://github.com/Causely/chaosmania): Instant chaos for your microservices application!
+- [causelybot](https://github.com/causely-oss/causelybot): Example Webhook Service to process the Causely notification payloads
+- [chaosmania](https://github.com/causely-oss/chaosmania): Instant chaos for your microservices application!
 
 ## 🤝 Contribute & Collaborate
 
