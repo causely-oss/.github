@@ -22,7 +22,7 @@ A few of the things we're working on or sharing:
 - [chaosmania](https://github.com/causely-oss/chaosmania): Instant chaos for your microservices application!
 - [correlation-factory](https://github.com/causely-oss/correlation-factory): Generating spurious correlations in DevOps metrics since 2025
 - [awesome-synthetic-apps](https://github.com/causely-oss/awesome-synthetic-apps): A collection of demo applications, telemetry generators and tools for application simulation
-- [automatic-instrumentation-lab](github.com/causely-oss/automatic-instrumentation-lab): A lab to explore different techniques of automatic instrumentation. 
+- [automatic-instrumentation-lab](https://github.com/causely-oss/automatic-instrumentation-lab): A lab to explore different techniques of automatic instrumentation. 
 
 ## 🤝 Contribute & Collaborate
 
