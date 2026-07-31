@@ -1,47 +1,62 @@
-<h1 align="center">
-    Assuring continuous application performance and service reliability. 
-</h1>
+# Give your AI agents a causal model of your systems.
 
-<p align="center">
-  <a href="https://causely.ai/">
-    <img src="https://www.causely.ai/images/causely-logo.svg" alt="Causely logo" height="180">
-  </a>
-</p>
-
-<p align="center">
-    <strong>Causely Open Source</strong> is where we share the open-source tools and ideas that support our mission: to prevent incidents, eliminate troubleshooting, and increase productivity for engineering teams who develop and operate modern applications.
-</p>
+**Causely Open Source** is where we share the tools behind our causal context layer for AI ops agents: MCP skills, benchmarks, and the synthetic environments we use to test agent accuracy against ground truth. Causely helps agents resolve issues faster, burn fewer tokens, and stop hallucinating.
 
 ---
+
+## 🔌 Connect an Agent
+
+The Causely MCP server is a hosted endpoint, always current, no repo required:
+
+```
+https://api.causely.app/mcp
+```
+
+Works with Claude Code, Claude Desktop, Cursor, or any MCP-compatible client. Full setup instructions and tool reference: [docs.causely.ai/agent-integration/](https://docs.causely.ai/agent-integration/)
 
 ## 🗂️ Featured Projects
 
 A few of the things we're working on or sharing:
 
-- [causelybot](https://github.com/causely-oss/causelybot): Example Webhook Service to process the Causely notification payloads
-- [chaosmania](https://github.com/causely-oss/chaosmania): Instant chaos for your microservices application!
-- [correlation-factory](https://github.com/causely-oss/correlation-factory): Generating spurious correlations in DevOps metrics since 2025
-- [awesome-synthetic-apps](https://github.com/causely-oss/awesome-synthetic-apps): A collection of demo applications, telemetry generators and tools for application simulation
-- [automatic-instrumentation-lab](https://github.com/causely-oss/automatic-instrumentation-lab): A lab to explore different techniques of automatic instrumentation. 
+- [causely-client](https://github.com/causely-oss/causely-client): MCP Skills and plugins for Claude Code, Claude Desktop, and Cursor. Pre-built investigation workflows (alert triage, postmortems, blast radius) for the Causely causal reasoning MCP server. Fork it to build the tool-selection logic for your own reliability agent.
+- [awesome-synthetic-apps](https://github.com/causely-oss/awesome-synthetic-apps): Demo applications and telemetry generators for testing agent accuracy against known failure scenarios.
+- [chaosmania](https://github.com/causely-oss/chaosmania): Ground-truth fault injection for microservices, used to benchmark whether an agent's diagnosis actually matches the real root cause.
+- [automatic-instrumentation-lab](https://github.com/causely-oss/automatic-instrumentation-lab): Techniques for automatic instrumentation, groundwork for any observability pipeline feeding an agent.
+
+
+
+## 📊 Why Causal Context
+
+Across 72 experiments spanning four agent frameworks, adding Causely's causal model to agent workflows produced:
+
+- **100%** fault scenario accuracy, up from 75% without causal context
+- **48%** fewer tokens per investigation on average
+- **63%** faster mean query time
+
+Full methodology: [Benchmark](https://www.causely.ai/product/benchmark) or reproduce it with [this repo](https://github.com/causely-oss/otel-demo/blob/main/BENCHMARK.md).
 
 ## 🤝 Contribute & Collaborate
 
-We’re building in the open because we believe in community-driven innovation.  
+We're building in the open because we believe in community-driven innovation.
 Want to get involved?
 
 - 📥 Clone & explore the code
 - 🐞 Open issues or suggest enhancements
-- 🔁 Submit PRs — we welcome contributions!
-- 💬 Start a discussion — we’re listening
+- 🔁 Submit PRs, we welcome contributions
+- 💬 Start a discussion, we're listening
 
 ---
+
+
 
 ## 🌐 Learn More
 
 - 🌐 [Website](https://www.causely.ai)
 - 📝 [Blog](https://www.causely.ai/blog)
+- 📖 [Docs](https://docs.causely.ai)
 - 🧑‍💼 [Careers](https://www.causely.ai/careers)
 
 ---
 
 > 🛠️ This organization is maintained by the team at [Causely](https://www.causely.ai).
+
