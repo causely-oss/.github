@@ -18,7 +18,8 @@ Works with Claude Code, Claude Desktop, Cursor, or any MCP-compatible client. Fu
 
 A few of the things we're working on or sharing:
 
-- [causely-client](https://github.com/causely-oss/causely-client): MCP Skills and plugins for Claude Code, Claude Desktop, and Cursor. Pre-built investigation workflows (alert triage, postmortems, blast radius) for the Causely causal reasoning MCP server. Fork it to build the tool-selection logic for your own reliability agent.
+- [causely-client](https://github.com/causely-oss/causely-client): Pre-built investigation workflows (alert triage, postmortems, blast radius) for the Causely causal reasoning MCP server. Fork it to build the tool-selection logic for your own reliability agent.
+- [background-agents](https://github.com/causely-oss/background-agents): Examples of giving background agents the context to reason about a live system, so they resolve issues faster, with fewer tokens and without hallucinating.
 - [awesome-synthetic-apps](https://github.com/causely-oss/awesome-synthetic-apps): Demo applications and telemetry generators for testing agent accuracy against known failure scenarios.
 - [chaosmania](https://github.com/causely-oss/chaosmania): Ground-truth fault injection for microservices, used to benchmark whether an agent's diagnosis actually matches the real root cause.
 - [automatic-instrumentation-lab](https://github.com/causely-oss/automatic-instrumentation-lab): Techniques for automatic instrumentation, groundwork for any observability pipeline feeding an agent.
